@@ -22,6 +22,6 @@ def test_multiplicacao_lenta():
 
 @pytest.mark.rapido
 def test_multiplicacao_rapida():
-    assert multiplica(3,4) == 12
+    assert multiplica(3,3) == 9
 
     
